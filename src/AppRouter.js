@@ -9,9 +9,6 @@ const AppRouter = () => {
     <ThemeProvider>
       <Router>
         <NavBar />
-        <Switch>
-          <Route exact path="/" component={Home} />
-        </Switch>
       </Router>
     </ThemeProvider>
   );
